@@ -2,3 +2,25 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.page-title {
+  font-size: 2rem;
+  color: lightseagreen;
+}
+
+.page-subtitle {
+  font-size: 20px;
+  color: limegreen;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 1rem;
+  margin: 2rem;
+  font-size: 1rem;
+}

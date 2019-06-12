@@ -5,7 +5,7 @@ import { PersonalInfoComponent } from './components/personal-info/personal-info.
 
 const routes: Routes = [
   { path: 'temas', component: TopicsComponent },
-  { path: 'informacion-personal', component: PersonalInfoComponent }
+  { path: 'informacion-angular', component: PersonalInfoComponent }
 ];
 
 @NgModule({
